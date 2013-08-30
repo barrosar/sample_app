@@ -35,7 +35,12 @@ end
 group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
   gem 'capybara'
+  gem 'spork'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess', '0.3.6'
 end
+
+gem 'rails-observers'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
